@@ -1,0 +1,27 @@
+{
+  "name": "minecraft-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "backpack",
+    "build": "backpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "14.0.18",
+    "backpack-core": "0.8.4",
+    "ts-loader": "7.0.5",
+    "typescript": "3.9.6"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.0",
+    "ora": "^4.0.4"
+  }
+}
